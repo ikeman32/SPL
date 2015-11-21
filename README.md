@@ -6,9 +6,13 @@ A language that is structured for a novice with syntax that is more human readab
 Basic structure for a program Hello World
 
 Create:
+
 Window mainw;
+
 Text text1;
+
 Button button1.
+
 */
 Explanation: The Create commant tells the compiler that you want to create an object while the colon ":" tells the compiler that you want to create several objects.
 
@@ -18,9 +22,13 @@ The semicolon ";" is the list item separator while the period "." tells the comi
 Hello World program continued.
 
 Define mainw:
+
 Size default;
+
 TitleBar standard;
+
 Title Text, 'Hello World';
+
 StatusBar no.
 
 */
@@ -32,10 +40,13 @@ Define button1 Text, 'Ok'.
 Define text1 Text, 'Hello World!'.
 
 Collect mainw:
+
 text1 Middle, Center;
+
 button1 Under text1.
 
 Events:
+
 button1 Click, Exit.
 
 */
@@ -48,8 +59,11 @@ After you create snd define your objects you collect them and arraigne them it t
 Complex events not already defined in the compuler's library can be defined by the developer in a set of functions or sub routine called an Instruction which has the following construct:
 
 Instrution name:
+
 Arg1;
+
 Arg2;
+
 Etc.
 
 /*
@@ -57,8 +71,11 @@ Etc.
 To keep a program from becoming crowded with developet defined Instructions they can be place in a new library and linked to the main program with the Include command:
 
 Include;
+
 Libray1;
+
 Libray2;
+
 etc.
 
 That is the gist of the concept with the goal of making the coding process easier for beginners without a lot of complex syntax. A more in depth description of the language will be in the wiki.
