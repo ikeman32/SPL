@@ -19,3 +19,8 @@ loop, a < 10:
   print, a;
   a ++;
 loop.
+
+//loop through items in an object
+loop, in [object]:
+  [code];
+loop.
