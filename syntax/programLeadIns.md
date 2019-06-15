@@ -8,8 +8,3 @@ main.
 module:
   [name and path of module];
 module.
-
-//Link libraries to the program
-library:
-  [library name here];
-library.
